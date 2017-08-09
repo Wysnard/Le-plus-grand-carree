@@ -155,7 +155,7 @@ int	ft_read_map(char *path, int ct, t_ref *reference)
 	}
 	printf("j = %d\n", j);
 	printf("ref->i = %d | ref->j = %d | ref->max = %d\n", reference->i, reference->j, reference->max);
-	print_tab(tab, reference);
+	//print_tab(tab, reference);
 	free(tab);
 	close (fd);
 	return (1);
